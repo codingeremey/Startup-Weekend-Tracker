@@ -1,0 +1,14 @@
+<!--index.vtl-->
+<h1>Startup Weekend Kirkland</h1>
+<h2>Friday, June 2, 2017 at 6:30pm through Sunday, June 4, 2017 at 8:30pm</h2>
+<p>Learn, Network, Startup In just 54 hours, you will experience the highs, lows, fun, and pressure that make up life at a startup. As you learn how to create a real company, you'll meet the very best mentors, investors, co-founders, and sponsors who are ready to help you get started.</p>
+
+<h3>All Teams:</h3>
+<ul>
+    #foreach ($team in $teams)
+        <li><a href="/teams/$team.getId()">$team.getName()</a></li>
+    #end
+</ul>
+
+<a href="/teams/new">Add a new team</a>
+<!--index.vtl-->

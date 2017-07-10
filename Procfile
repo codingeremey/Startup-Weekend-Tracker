@@ -1,0 +1,1 @@
+web: ./build/install/startup-weekend-tracker/bin/startup-weekend-tracker
