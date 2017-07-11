@@ -1,3 +1,6 @@
+package com.epicodus.java.StartupWeekendTracker.data;
+
+import com.epicodus.java.StartupWeekendTracker.models.*;
 import java.util.ArrayList;
 import java.util.List;
 

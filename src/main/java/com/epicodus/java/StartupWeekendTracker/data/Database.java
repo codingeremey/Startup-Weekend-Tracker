@@ -1,3 +1,7 @@
+package com.epicodus.java.StartupWeekendTracker.data;
+
+import com.epicodus.java.StartupWeekendTracker.models.*;
+
 import java.util.List;
 
 public interface Database {

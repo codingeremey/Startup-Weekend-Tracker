@@ -1,3 +1,5 @@
+package com.epicodus.java.StartupWeekendTracker.models;
+
 public class Member {
     private int mId;
     private String mFirstName;
